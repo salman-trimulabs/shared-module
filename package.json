@@ -5,18 +5,23 @@
   "main": "index.js",
   "dependencies": {
     "antd": "^4.7.3",
+    "react": "^17.0.1",
     "web-vitals": "^0.2.4",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.0",
     "@testing-library/react": "^11.1.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/user-event": "^12.1.10"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "cd project1 && yarn start",
+    "start": "cd project1 && react-scripts start",
+    "project1": "cd project1 && react-scripts start",
+    "project2": "cd project2 && react-scripts start",
+    "develop-project2": "cd project2 && react-scripts start",
+    "develop-project1": "cd project1 && react-scripts start",
     "postinstall": "cd project1 && yarn && cd ../project2 && yarn",
-    "build": "cd project1 && yarn build && cd ../project2 && yarn build",
-    "develop-project1": "cd project1 && yarn start",
-    "develop-project2": "cd project2 && yarn start"
+    "build": "cd project1 && react-scripts build && cd ../project2 && react-scripts build"
   },
   "repository": {
     "type": "git",
