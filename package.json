@@ -12,7 +12,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "cd project1 && index.js",
+    "start": "cd project1 && yarn start",
     "postinstall": "cd project1 && yarn && cd ../project2 && yarn",
     "build": "cd project1 && yarn build && cd ../project2 && yarn build",
     "develop-project1": "cd project1 && yarn start",
